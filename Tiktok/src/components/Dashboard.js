@@ -63,8 +63,8 @@ function Dashboard() {
 
                 <div className="w-4/6 md:w-3/6 ml-4 h-full flex flex-col justify-center items-center bg-transparent">
                     <p>
-                        <p className='text-lg md:text-2xl font-bold md:font-extrabold '>Consult Specialist Doctors Online</p>
-                        <p className='text-sm md:text-xl mb-4 font-semibold  md:font-bold'>Expert Guidance, Always Online</p>
+                        <p className='text-lg md:text-2xl  md:font-extrabold '>Consult Specialist Doctors Online</p>
+                        <p className='text-sm md:text-xl mb-4 font-semibold  md:'>Expert Guidance, Always Online</p>
                         <p className='text-xs md:text-sm mb-8 font-normal md:font-semibold'>Your Wellness, Our Priority - Virtual Care, Real Results</p>
                     </p>
                     <ModalScreen visible={modalVisible} closeModal={closeModal} Footer={false} selectedService={selectedService} />
@@ -81,7 +81,7 @@ function Dashboard() {
             <section className='w-screen bg-transparent mt-8 py-8 overflow-hidden cursor-pointer' onClick={()=>openModal(null)}>
 
                 <div className='flex flex-col items-center justify-center'>
-                    <p className="md:text-5xl text-3xl text-center tracking-tight font-bold">Steps to Get Your Doctor Consultation</p>
+                    <p className="md:text-5xl text-3xl text-center tracking-tight ">Steps to Get Your Doctor Consultation</p>
                     <p className="md:w-4/6 w-5/6 md:text-2xl text-lg my-4 mb-8 text-center">No two Individual are alike.Samarpitam examine patients and diseases with the aim to diagnose root causes, offer personalized treatment, and provide individualized care.</p>
                 </div>
 
@@ -90,7 +90,7 @@ function Dashboard() {
                         <Link to="https://wa.me/7814817888">
                         <div className='w-full h-full flex flex-col items-center'>
                             <span className='p-6 bg-gray-700 rounded-lg'><WhatsAppOutlined className='scale-150 text-white' /></span>
-                            <p className='pt-4 text-2xl font-bold'>Connect</p>
+                            <p className='pt-4 text-2xl '>Connect</p>
                             <p className='p-4 text-sm font-normal'>Call, Message <br /> or Chat</p>
                             {/* <p className='text-sm font-semibold p-2 text-blue-500 border border-solid border-white rounded-md hover:text-white cursor-pointer'>Support@samarpitam.com</p> */}
                         </div>
@@ -99,7 +99,7 @@ function Dashboard() {
                     <div className="w-full h-2/6 md:h-full md:w-2/6 flex items-center justify-center">
                         <div className='w-full h-full flex flex-col items-center'>
                             <span className='p-6 bg-gray-700 rounded-lg'><SolutionOutlined className='scale-150 text-white' /></span>
-                            <p className='pt-4 text-2xl font-bold'>Health Coach</p>
+                            <p className='pt-4 text-2xl '>Health Coach</p>
                             <p className='p-4 text-sm font-normal'>Health Coach will be Assigned to you.</p>
                             {/* <p className='text-sm font-semibold p-2 text-blue-500 border border-solid border-white rounded-md hover:text-white cursor-pointer'>7814817888</p> */}
                         </div>
@@ -107,7 +107,7 @@ function Dashboard() {
                     <div className="w-full h-2/6 md:h-full md:w-2/6 flex items-center justify-center">
                         <div className='w-full h-full flex flex-col items-center'>
                             <span className='p-6 bg-gray-700 rounded-lg'><ScheduleOutlined className='scale-150 text-white' /></span>
-                            <p className='pt-4 text-2xl font-bold'>Appointment</p>
+                            <p className='pt-4 text-2xl '>Appointment</p>
                             <p className='p-4 text-sm font-normal'>At your convenient time with Samarpitam.</p>
                             {/* <p className='text-sm font-semibold p-2 text-blue-500 border border-solid border-white rounded-md hover:text-white cursor-pointer'>7814817888</p> */}
                         </div>
@@ -115,7 +115,7 @@ function Dashboard() {
                     <div className="w-full h-2/6 md:h-full md:w-2/6 flex items-center justify-center">
                         <div className='w-full h-full flex flex-col items-center'>
                             <span className='p-6 bg-gray-700 rounded-lg'><TeamOutlined className='scale-150 text-white' /></span>
-                            <p className='pt-4 text-2xl font-bold'>Consult</p>
+                            <p className='pt-4 text-2xl '>Consult</p>
                             <p className='p-4 text-sm font-normal'>Receive Personalised Doctor Consultation.</p>
                             {/* <Link to={"https://wa.me/7814817888"} ><p className='text-sm font-semibold p-2 text-blue-500 border border-solid border-white  rounded-md hover:text-white cursor-pointer'>Chat on Whatsapp</p></Link> */}
                         </div>
@@ -129,7 +129,7 @@ function Dashboard() {
             <div className="w-screen overflow-hidden p-4 my-12 flex flex-col items-center justify-center">
 
                 <p className='w-5/6 mt-4 md:mb-12 flex items-center justify-center'>
-                    <p className="sm:text-5xl text-3xl tracking-tight font-bold">OUR AIM</p>
+                    <p className="sm:text-5xl text-3xl tracking-tight ">OUR AIM</p>
                 </p>
 
                 <div className='w-5/6 flex flex-col items-center justify-center'>
@@ -153,7 +153,7 @@ function Dashboard() {
             <div className="w-screen overflow-hidden p-4 my-12 flex flex-col items-center justify-center">
 
                 <p className='w-5/6 mt-4 md:mb-12 flex items-center justify-center'>
-                    <p className="sm:text-5xl text-3xl tracking-tight font-bold">OUR PERSPECTIVE</p>
+                    <p className="sm:text-5xl text-3xl tracking-tight ">OUR PERSPECTIVE</p>
                 </p>
 
                 <div className='w-5/6 flex flex-col items-center justify-center'>

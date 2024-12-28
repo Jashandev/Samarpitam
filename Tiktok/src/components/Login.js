@@ -93,7 +93,7 @@ function Login(props) {
 
                         <div className='w-full overflow-y-scroll p-10 md:px-20' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
 
-                            <h1 className='font-bold mb-12 mt-2 font-mono'>Hello <NotificationOutlined /></h1>
+                            <h1 className=' mb-12 mt-2 font-mono'>Hello <NotificationOutlined /></h1>
 
                             <Form className='w-68 h-68 overflow-hidden' form={form} layout="vertical" initialValues={{ requiredMarkValue: requiredMark, remember: true, }}
                                 onValuesChange={onRequiredTypeChange} requiredMark={requiredMark} onFinish={onLoginFinish} onFinishFailed={onLoginFinishFailed} autoComplete="off" validateMessages={validateMessages}>

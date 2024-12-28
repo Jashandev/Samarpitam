@@ -48,7 +48,7 @@ function Contact() {
 					<div className="w-full h-2/6 md:h-full md:w-2/6 flex items-center justify-center">
 						<div className='w-4/6 h-full flex flex-col items-center justify-center'>
 							<span className='p-6 bg-gray-700 rounded-lg'><MailOutlined className='scale-150' /></span>
-							<p className='pt-4 text-2xl font-bold'>Email us:</p>
+							<p className='pt-4 text-2xl '>Email us:</p>
 							<p className='p-4 text-sm font-normal text-justify'>If you have any queries , you may email us, we will get in touch with you within 24 hrs.
 </p>
 							<p className='text-sm font-semibold p-2 text-blue-500 border border-solid border-white rounded-md hover:text-white cursor-pointer'>Support@samarpitam.com</p>
@@ -57,7 +57,7 @@ function Contact() {
 					<div className="w-full h-2/6 md:h-full md:w-2/6 flex items-center justify-center">
 						<div className='w-4/6 h-full flex flex-col items-center justify-center'>
 							<span className='p-6 bg-gray-700 rounded-lg'><PhoneOutlined className='scale-150' /></span>
-							<p className='pt-4 text-2xl font-bold'>Call us:</p>
+							<p className='pt-4 text-2xl '>Call us:</p>
 							<p className='p-4 text-sm font-normal text-justify'>Book Your consultation anytime from anywhere it may be a phone call , video call or clinic consultation.
 </p>
 							<p className='text-sm font-semibold p-2 text-blue-500 border border-solid border-white rounded-md hover:text-white cursor-pointer'>7814817888</p>
@@ -66,7 +66,7 @@ function Contact() {
 					<div className="w-full h-2/6 md:h-full md:w-2/6 flex items-center justify-center">
 						<div className='w-4/6 h-full flex flex-col items-center justify-center'>
 							<span className='p-6 bg-gray-700 rounded-lg'><WhatsAppOutlined className='scale-150' /></span>
-							<p className='pt-4 text-2xl font-bold'>Support</p>
+							<p className='pt-4 text-2xl '>Support</p>
 							<p className='p-4 text-sm font-normal text-justify'>For any kind of query related to appointment , delivery timing of medicine contact our support team.</p>
 							<Link to={"https://wa.me/7814817888"} ><p className='text-sm font-semibold p-2 text-blue-500 border border-solid border-white  rounded-md hover:text-white cursor-pointer'>Chat on Whatsapp</p></Link>
 						</div>
@@ -81,7 +81,7 @@ function Contact() {
 					<p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">We all need people who will give us feedback.That's how we improve.
 </p>
 					<div className='bg-white w-5/6 md:w-4/6 md:p-12 p-8  rounded-lg flex flex-col justify-center items-center'>
-						<p className='text-xl font-bold mb-4'>Rate Us</p>
+						<p className='text-xl  mb-4'>Rate Us</p>
 						<span className='my-4 mb-8'> {StarRating(StarCount).map((starComponent, index) => <span key={index} className='cursor-pointer mx-2 md:mx-4' onClick={()=>{setStarCount(index+1)}}>{starComponent}</span>)}</span>
 					<Form name="feedback"  labelCol={{ flex: '110px' }} labelAlign="left" onFinish={onFeedBackFinish} onFinishFailed={onFeedBackFinishFailed} labelWrap wrapperCol={{ flex: 1 }} colon={false}
 						style={{ maxWidth: 600 }}>

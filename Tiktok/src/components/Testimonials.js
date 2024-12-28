@@ -29,7 +29,7 @@ function Testimonials() {
 				<div className="w-screen overflow-hidden p-4 my-12 flex flex-col items-center justify-center">
 
 				<p className='w-5/6 mt-4 md:mb-12 flex items-center justify-center'>
-                    <p className="sm:text-5xl text-3xl tracking-tight font-bold">Testimonials</p>
+                    <p className="sm:text-5xl text-3xl tracking-tight ">Testimonials</p>
                 </p>
 
                 <div className='w-5/6 flex flex-col items-center justify-center'>

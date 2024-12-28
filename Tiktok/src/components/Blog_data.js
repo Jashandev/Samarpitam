@@ -3,10 +3,10 @@ import { useNavigate } from "react-router-dom";
 import DATA from '../Context/DATA/data_context'
 import Modal_book from './modal_book'
 import bg from '../Assets/Images/Blog_info/bg.jpg'
-import PCOS from '../Assets/Images/Blog_info/pcod.png';
+import PCOS from '../Assets/Images/Blog_info/PCOD.png';
 import leucorrhea from '../Assets/Images/Blog_info/leucorrhea.png';
 import Kidney from '../Assets/Images/Blog_info/Kidney.png';
-import ULCERATIVE from '../Assets/Images/Blog_info/Ulcerative.png';
+import ULCERATIVE from '../Assets/Images/Blog_info/ULCERATIVE.png';
 import Irritable from '../Assets/Images/Blog_info/Irritable.png';
 import Depression from '../Assets/Images/Blog_info/Depression.png';
 import piles from '../Assets/Images/Blog_info/piles.png';
@@ -16,9 +16,9 @@ import Asthma from '../Assets/Images/Blog_info/Asthma.png';
 import Sinusitis from '../Assets/Images/Blog_info/Sinusitis.png';
 import Migraine from '../Assets/Images/Blog_info/Migraine.png';
 import Thyroid from '../Assets/Images/Blog_info/Thyroid.png';
-import Obesity from '../Assets/Images/Blog_info/obesity.png';
-import Vitiligo from '../Assets/Images/Blog_info/vitiligo.png';
-import Psoriasis from '../Assets/Images/Blog_info/psoriasis.png';
+import Obesity from '../Assets/Images/Blog_info/Obesity.png';
+import Vitiligo from '../Assets/Images/Blog_info/Vitiligo.png';
+import Psoriasis from '../Assets/Images/Blog_info/Psoriasis.png';
 import Hypertension from '../Assets/Images/Blog_info/Hypertension.png';
 import Urinary from '../Assets/Images/Blog_info/Urinary.png';
 import Acne from '../Assets/Images/Blog_info/Acne.png';
@@ -27,7 +27,7 @@ import Neuralgia from '../Assets/Images/Blog_info/Neuralgia.png';
 import Sciatica from '../Assets/Images/Blog_info/Sciatica.png';
 import Diabetes from '../Assets/Images/Blog_info/Diabetes.png';
 import Infertility from '../Assets/Images/Blog_info/Infertility.png';
-import Gout from '../Assets/Images/Blog_info/gout.png';
+import Gout from '../Assets/Images/Blog_info/Gout.png';
 import Cervical from '../Assets/Images/Blog_info/Cervical.png';
 import Rheumatoid from '../Assets/Images/Blog_info/Rheumatoid.png';
 import Osteo from '../Assets/Images/Blog_info/Osteo.png';
@@ -110,7 +110,7 @@ function Blog_data() {
                         {/* <div className='flex flex-col items-center justify-center bg-red-400 py-12'> */}
                         <div className='flex flex-col justify-center py-12 min-h-[500px] bg-no-repeat bg-cover'  style={{ "background-image": `url(${Photo(DATA.Blog_info.name)})` ,  "backgroundPosition": 'right'  }}>
                             <div className='md:w-3/6 w-full flex flex-col justify-center items-center'>
-                            <p className="md:text-5xl text-3xl text-center font-bold">{DATA.Blog.name.toUpperCase()}</p>
+                            <p className="md:text-5xl text-3xl text-center ">{DATA.Blog.name.toUpperCase()}</p>
                             <p className="md:w-4/6 w-5/6 md:text-2xl text-lg my-4 text-center">{DATA.Blog.description}</p>
                             <p className="md:w-4/6 w-5/6 md:text-2xl text-lg mb-8 text-center">{DATA.Blog_info.name.toUpperCase()}</p>
                             <Modal_book Footer={true}/>
@@ -120,7 +120,7 @@ function Blog_data() {
                         <div className='w-full h-auto flex-row justify-center items-center'>
                             {Object.entries(DATA.Blog_info.description).map(([key, value]) => (
                                 <div key={key} className='w-full h-auto overflow-hidden'>
-                                    <p className='text-2xl font-bold m-8'>{key.toUpperCase()}</p>
+                                    <p className='text-2xl  m-8'>{key.toUpperCase()}</p>
 
                                     {Array.isArray(value) ? (
                                         <ul className='mx-16 list-disc'>
@@ -147,7 +147,7 @@ function Blog_data() {
                                 </div>
                             ))}
 
-                            <div className='m-8 flex justify-start items-center'><p className='font-bold'>Publish Date</p><p className='mx-4'>{DOP(DATA.Blog_info.createdAt)}</p></div>
+                            <div className='m-8 flex justify-start items-center'><p className=''>Publish Date</p><p className='mx-4'>{DOP(DATA.Blog_info.createdAt)}</p></div>
 
                         </div>
                     </section>

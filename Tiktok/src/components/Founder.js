@@ -7,7 +7,7 @@ function Founder() {
             <div className="w-screen overflow-hidden p-4 my-12 flex flex-col items-center justify-center">
                 <p className="w-5/6 md:w-4/6 mt-4 md:mb-12 flex items-center justify-center">
                     <hr className="w-1/6 border-2 border-black mr-12 hidden md:block" />
-                    <p className="sm:text-5xl text-3xl tracking-tight font-bold">
+                    <p className="sm:text-5xl text-3xl tracking-tight ">
                         OUR FOUNDER
                     </p>
                     <hr className="w-1/6 border-2 border-black ml-12 hidden md:block" />
@@ -22,7 +22,7 @@ function Founder() {
                     <div className="w-full h-auto md:px-12 px-4 flex justify-center items-center text-white">
                         <div className="flex flex-col items-center justify-center">
                             <div  className="w-32 h-32 rounded-full overflow-hidden flex justify-center items-center bg-cover bg-no-repeat bg-white bg-center" style={{ "background-image": `url(${doctor})` }} ></div>
-                            <p className="md:text-2xl text-xl font-bold mt-4 text-center"> A Dream project of Mrs. KRISHNA DEVI </p>
+                            <p className="md:text-2xl text-xl  mt-4 text-center"> A Dream project of Mrs. KRISHNA DEVI </p>
                             <p className="md:mt-8 mt-4 text-lg md:leading-10 text-justify">
                                 SAMARPITAM has been established with the vision of bringing
                                 quality health care with a team of competent and highly

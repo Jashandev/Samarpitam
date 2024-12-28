@@ -56,7 +56,7 @@ function Doctor() {
 
                 <p className='w-5/6 mt-4 md:mb-12 flex items-center justify-center'>
                     <hr className='w-1/6 border-2 border-black mr-12 hidden md:block' />
-                    <p className="sm:text-5xl text-3xl tracking-tight font-bold">OUR EXPERTS</p>
+                    <p className="sm:text-5xl text-3xl tracking-tight ">OUR EXPERTS</p>
                     <hr className='w-1/6 border-2 border-black ml-12 hidden md:block' />
                 </p>
 
@@ -73,7 +73,7 @@ function Doctor() {
                                 <div className='w-full h-auto p-4 text-center flex flex-col md:flex-row justify-center items-center text-white'>
                                     <div className="md:w-[20rem] md:h-[20rem] h-[7rem] w-[7rem] rounded-full overflow-hidden bg-cover bg-no-repeat bg-white bg-center" style={{ "background-image": `url(${Photo(Doctor.url)})` }}></div>
                                     <div className="md:w-4/6 h-full md:p-12 flex flex-col items-center justify-center">
-                                        <p className='text-3xl font-bold my-4 text-blue-500'>Dr. {Doctor.name.toUpperCase()}</p>
+                                        <p className='text-3xl  my-4 text-blue-500'>Dr. {Doctor.name.toUpperCase()}</p>
                                         <p className='text-lg font-semibold mb-8'>{Doctor.study.toUpperCase()}</p>
                                         <p className='text-justify'>{ Text ? Doctor.description : Doctor.description.split(' ').slice(0, 25).join(' ')}</p>
                                         <Button type='primary' onClick={()=>setText(!Text)} className={`bg-sky-800 text-slate-50 h-10 my-4 flex items-center`}>{Text ? "Read Less" : "Read More"}</Button>

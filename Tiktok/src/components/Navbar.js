@@ -45,7 +45,7 @@ export default function Navbar(props) {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={Logo} className="h-8 w-8 rounded-full bg-white" alt="" />
-            <span className="self-center text-xl font-bold whitespace-nowrap dark:text-white text-white">Samarpitam</span>
+            <span className="self-center text-xl  whitespace-nowrap dark:text-white text-white">Samarpitam</span>
           </Link>
 
 

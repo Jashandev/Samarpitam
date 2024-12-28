@@ -40,7 +40,7 @@ function Blog_info() {
                     <section className='w-screen bg-transparent mt-8 py-8 overflow-hidden'>
 
                         <div className='flex flex-col items-center justify-center'>
-                            <p className="md:text-5xl text-3xl text-center tracking-tight font-bold">{DATA.Blog.name.toUpperCase()}</p>
+                            <p className="md:text-5xl text-3xl text-center tracking-tight ">{DATA.Blog.name.toUpperCase()}</p>
                             <p className="md:w-4/6 w-5/6 md:text-2xl text-lg my-4 mb-8 text-center">{DATA.Blog.description}</p>
                         </div>
 

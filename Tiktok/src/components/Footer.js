@@ -44,7 +44,7 @@ function Footer() {
 							</svg>
 							<br />
 							<section className="hover:text-white">
-								<p className="text-2xl font-bold text-white"> Reach Us</p>
+								<p className="text-2xl  text-white"> Reach Us</p>
 								<p>Bhoot Nath Mandir Road</p>
 								<p>Near A.S Garden Dinanagar,</p>
 								<p>Gurdaspur,</p>

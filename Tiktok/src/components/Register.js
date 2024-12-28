@@ -78,7 +78,7 @@ function Register(props) {
 
                         <div className='w-full overflow-y-scroll p-10 md:px-20' style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
 
-                            <h1 className='font-bold mb-12 mt-2 font-mono'>Welcome to Samarpitam</h1>
+                            <h1 className=' mb-12 mt-2 font-mono'>Welcome to Samarpitam</h1>
 
                             <Form className='w-68 h-68 overflow-hidden' form={form} layout="vertical" initialValues={{ requiredMarkValue: requiredMark, remember: true, }}
                                 onValuesChange={onRequiredTypeChange} requiredMark={requiredMark} onFinish={onRegisterFinish} onFinishFailed={onRegisterFinishFailed} autoComplete="off">
