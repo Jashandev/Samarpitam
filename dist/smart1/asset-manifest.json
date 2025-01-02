@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9efeaf05.css",
-    "main.js": "/static/js/main.d99b47b7.js",
+    "main.css": "/static/css/main.9201f3e5.css",
+    "main.js": "/static/js/main.a698b2ad.js",
     "static/media/Slide1.png": "/static/media/Slide1.e03dda9919d986a324a3.png",
     "static/media/6.png": "/static/media/6.f5293068d9c984a26ea9.png",
     "static/media/Slide3.png": "/static/media/Slide3.4ae30b84b29bb10ee4de.png",
@@ -26,7 +26,7 @@
     "static/media/leucorrhea.png": "/static/media/leucorrhea.b6ea01e41b8f65422051.png",
     "static/media/Acne.png": "/static/media/Acne.6fdcf465c73b61edae3e.png",
     "static/media/Typhoid.png": "/static/media/Typhoid.e8bd04d91acb2bc3520f.png",
-    "static/media/psoriasis.png": "/static/media/psoriasis.9b602c7977b4ff9b54f4.png",
+    "static/media/Psoriasis.png": "/static/media/Psoriasis.9b602c7977b4ff9b54f4.png",
     "static/media/Eczema.png": "/static/media/Eczema.3c2201400ea2e8dd4977.png",
     "static/media/piles.png": "/static/media/piles.d5e774abed9425cff751.png",
     "static/media/Infertility.png": "/static/media/Infertility.8500e0cc4ab896c66601.png",
@@ -36,7 +36,7 @@
     "static/media/Male.png": "/static/media/Male.ec98affd2aee39a6bc87.png",
     "static/media/KIDNEY.png": "/static/media/KIDNEY.911178de393708291d37.png",
     "static/media/Kidney.png": "/static/media/Kidney.5b59a99bb96aa8d79972.png",
-    "static/media/vitiligo.png": "/static/media/vitiligo.24beaff6641587b6b16e.png",
+    "static/media/Vitiligo.png": "/static/media/Vitiligo.24beaff6641587b6b16e.png",
     "static/media/Sinusitis.png": "/static/media/Sinusitis.3bf291dbf01d8b074524.png",
     "static/media/Cervical.png": "/static/media/Cervical.38f25f98cc009abd0763.png",
     "static/media/GYANAECOLOGICAL.png": "/static/media/GYANAECOLOGICAL.74e137b5ac909385e806.png",
@@ -49,9 +49,9 @@
     "static/media/Erectile.png": "/static/media/Erectile.4ed44dd56a7f53569221.png",
     "static/media/pcod.png": "/static/media/pcod.e725e353981bf20ba92e.png",
     "static/media/Thyroid.png": "/static/media/Thyroid.58916e991f80f5cb97e2.png",
-    "static/media/obesity.png": "/static/media/obesity.422b799199dab8cb1ff1.png",
+    "static/media/Obesity.png": "/static/media/Obesity.422b799199dab8cb1ff1.png",
     "static/media/LIVER.png": "/static/media/LIVER.4437ecc5aa35076605d5.png",
-    "static/media/gout.png": "/static/media/gout.d459fcfd2cc43f289bbb.png",
+    "static/media/Gout.png": "/static/media/Gout.d459fcfd2cc43f289bbb.png",
     "static/media/Asthma.png": "/static/media/Asthma.eaa10e40a4613b9cd07b.png",
     "static/media/Ulcerative.png": "/static/media/Ulcerative.a84734c628ac934a9a49.png",
     "static/media/Diabetes.png": "/static/media/Diabetes.8cb68ba33c6a9567ecd1.png",
@@ -76,11 +76,11 @@
     "static/media/HEART.png": "/static/media/HEART.83f6b570cf848cebbc91.png",
     "static/media/JOINTPAIN.png": "/static/media/JOINTPAIN.9aa3afb54d67d48423c1.png",
     "index.html": "/index.html",
-    "main.9efeaf05.css.map": "/static/css/main.9efeaf05.css.map",
-    "main.d99b47b7.js.map": "/static/js/main.d99b47b7.js.map"
+    "main.9201f3e5.css.map": "/static/css/main.9201f3e5.css.map",
+    "main.a698b2ad.js.map": "/static/js/main.a698b2ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.9efeaf05.css",
-    "static/js/main.d99b47b7.js"
+    "static/css/main.9201f3e5.css",
+    "static/js/main.a698b2ad.js"
   ]
 }
