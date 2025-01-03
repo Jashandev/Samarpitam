@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import API from './Context/API/api_state'
 import DATA from './Context/DATA/data_state'
-import { createBrowserRouter , Outlet } from "react-router-dom";
+import { createBrowserRouter, Outlet } from "react-router-dom";
 import Blogs from './components/Blogs'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
@@ -17,20 +17,22 @@ import Error from './components/Error'
 import Status from './components/Status'
 import Scroll from './components/Scroll'
 import TC from './components/TC'
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 function App() {
   return (
     <>
-    <API>
-      <DATA>
-        <Navbar></Navbar>
-        <Scroll />
-        <div className="mt-[72px] md:mt-[68px] min-h-[90vh] overflow-x-hidden bg-sky-100">
-          <Outlet />
-        </div>
-        <Footer></Footer>
-      </DATA>
-    </API>
+      <API>
+        <DATA>
+          <Navbar></Navbar>
+          <GoogleAnalytics />
+          <Scroll />
+          <div className="mt-[72px] md:mt-[68px] min-h-[90vh] overflow-x-hidden bg-sky-100">
+            <Outlet />
+          </div>
+          <Footer></Footer>
+        </DATA>
+      </API>
     </>
   );
 }
@@ -39,9 +41,9 @@ const router = createBrowserRouter([
 
   {
     path: "/",
-    element: <App/>,
-    errorElement: <Error/>,
-    children:[
+    element: <App />,
+    errorElement: <Error />,
+    children: [
       {
         path: "",
         element: <Dashboard />,
@@ -82,12 +84,12 @@ const router = createBrowserRouter([
   },
   {
     path: '/Login',
-    element: <API><DATA><Login/></DATA></API>,
+    element: <API><DATA><Login /></DATA></API>,
     errorElement: <Error />
   },
   {
     path: '/Register',
-    element: <API><DATA><Register/></DATA></API>,
+    element: <API><DATA><Register /></DATA></API>,
     errorElement: <Error />
   },
 ]);
