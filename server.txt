@@ -1,0 +1,14 @@
+scp -r -i Samarpitam.pem Samarpitam ubuntu@ec2-16-171-77-166.eu-north-1.compute.amazonaws.com:/home/ubuntu/
+ssh -i "Samarpitam.pem" ubuntu@ec2-16-171-77-166.eu-north-1.compute.amazonaws.com
+POP ACCESS
+IMAP ACCESS
+
+leran 
+react hocks
+react router
+smtp mail info operate
+ssh -i davy.pem ubuntu@13.48.36.105
+scp -r -i davy.pem FitnessHome ubuntu@13.48.36.105:/home/ubuntu/
+sudo mv -i FitnessHome /var/www/html/
+cd /var/www/html/
+sudo rm -rf FitnessHome
